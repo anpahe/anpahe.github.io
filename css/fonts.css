@@ -1,0 +1,25 @@
+@font-face {
+    font-family: avenir_normal;
+    src: url(/assets/fonts/Avenir/medium.ttf);
+}
+@font-face {
+    font-family: avenir_bold;
+    src: url(/assets/fonts/Avenir/black.ttf);
+}
+@font-face {
+    font-family: avenir_light;
+    src: url(/assets/fonts/Avenir/light.ttf);
+}
+@font-face {
+    font-family: avenir_oblique;
+    src: url(/assets/fonts/Avenir/oblique.ttf);
+}
+h1{
+    font-family: avenir_bold;
+}
+h2{
+    font-family: avenir_bold;
+}
+h3{
+    font-family: avenir_bold;
+}

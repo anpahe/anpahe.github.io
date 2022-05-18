@@ -1,0 +1,130 @@
+p{
+    font-family: avenir_normal;
+    margin: 30px;
+}
+body {
+    background-color: #fb5607;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#ventana {
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    border-radius: 9px;
+    border: 2px solid black;
+    position: absolute;
+    top: 2%;
+}
+#ventana_superior {
+    height: 23px;
+    padding-left: 5px;
+    padding-top: 3px;
+    background-color: #3a86ff;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+}
+
+.circulo {
+    float: left;
+    margin-right: 5px;
+    height: 16px;
+    width: 16px;
+    border-radius: 11px;
+    border: 2px solid black;
+}
+
+#circulo1 {
+    background: #e72270;
+}
+
+#circulo2 {
+    background: #ffbe0b;
+}
+
+#circulo3 {
+    background: #8338ec;
+}
+
+#ventana_inferior{
+    text-align: center;
+}
+#cabecera {
+    border-bottom: 2px solid black;
+}
+
+#ventana_emergente {
+    background-color: white;
+    width: 50%;
+    background-color: white;
+    border-radius: 9px;
+    border: 2px solid black;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+
+}
+#ventana_emergente_superior {
+    height: 23px;
+    padding-left: 5px;
+    padding-top: 3px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom: 2px solid black;
+
+}
+.boton {
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#menu{
+    padding-top: 30px;
+    font-family: avenir_bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boton_menu{
+
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px 20px;
+    margin: 15px;
+}
+
+#uxuiboton {
+    background-color: #ffbe0b;
+}
+
+#interaccionboton {
+    background-color: #7eaefc;
+}
+
+#graficoboton {
+    background-color: #e64a88;
+}
+
+#interactivoboton {
+    background-color: #b286ee;
+}
+
+#ventana_emergente a{
+    text-decoration: none;
+    color: black;
+    font-family: avenir_normal;
+}
+
+#ventana_emergente a:hover{
+    background-color: #fb5607;
+}
