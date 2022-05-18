@@ -86,7 +86,6 @@ body {
 }
 
 #menu{
-    padding-top: 30px;
     font-family: avenir_bold;
     color: black;
     display: flex;
@@ -95,7 +94,6 @@ body {
     justify-content: center;
 }
 .boton_menu{
-
     text-decoration: none;
     border: 2px solid black;
     border-radius: 9px;
