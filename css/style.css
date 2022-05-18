@@ -1,6 +1,10 @@
-p{
+#ventana_emergente p{
     font-family: avenir_normal;
     margin: 30px;
+}
+p{
+    font-family: avenir_normal;
+    margin: 20px;
 }
 body {
     background-color: #fb5607;
